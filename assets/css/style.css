@@ -1,0 +1,165 @@
+body * {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+}
+
+nav {
+    padding: 0!important;
+}
+
+.navbar,
+footer {
+    background-color: #373A3C;
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    text-decoration: none!important;
+}
+
+.nav-link {
+    font-family: 'Cabin', regular;
+    color: #ffffff;
+}
+
+footer h3 {
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+}
+
+.icon {
+    font-size: 37px;
+    padding: 0;
+}
+
+.navbar-toggler {
+    border-color: #777777;
+}
+
+.fa-bars {
+    color: #777777;
+}
+
+header {
+    padding-top: 2.2rem!important;
+}
+
+.rowPizza {
+    border-bottom: 1.5px solid #373A3C;
+}
+
+.btn-light {
+    border-color: #dddddd;
+    outline-color: #ffffff;
+}
+
+.rowImagenPizza {
+    border-bottom: 1.5px solid #373A3C;
+}
+
+.carousel-indicators li {
+    top: 60px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #dddddd;
+}
+
+.carousel-indicators .active {
+    background-color: #373A3C;
+}
+
+.rowRecipe {
+    border-bottom: 1.5px solid #373A3C;
+    padding-bottom: 60px;
+}
+
+.recipe li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.ingredients,
+.preparation {
+    display: inline-block;
+    border-bottom: 1.5px solid #373A3C;
+}
+
+#newsletterSection {
+    background-color: #dc3545;
+    padding: 6rem 0;
+}
+
+.newsletter * {
+    color: #ffffff;
+}
+
+.newsletterSection .container h3 {
+    font-size: 30px;
+}
+
+span {
+    font-family: 'Lobster', cursive;
+}
+
+.btn-danger {
+    border-color: #dddddd;
+    color: #ffffff;
+    padding: 5px 70px;
+}
+
+@media screen and (max-width:576px) {
+    .imgPizza {
+        border-top: 1.5px solid #373A3C;
+    }
+    h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    header h5 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .btn-light {
+        width: 112px;
+        height: 40px;
+        font-size: 13px;
+        padding: auto;
+    }
+    .recipe .row {
+        margin-top: 30px;
+    }
+    .recipe .row * {
+        font-size: 16px;
+    }
+    .rowRecipe {
+        padding-bottom: 23px;
+    }
+    .ingredients,
+    .preparation {
+        border-bottom: 0;
+        margin: auto;
+    }
+    #relatedRecipes h2 {
+        font-size: 25px;
+    }
+    .card-title {
+        font-size: 17px;
+    }
+    #newsletterSection h2 {
+        font-size: 30px;
+    }
+    #newsletterSection h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:577px) {
+    .rowRecipe {
+        border-top: 1.5px solid #373A3C;
+    }
+}
